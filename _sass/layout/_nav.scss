@@ -1,5 +1,5 @@
 .header {
-  background-color: red; /*$bg-color;*/
+  background-color: $bg-color;
   color: $text-color;
   position: absolute;
   z-index: 4;
@@ -30,7 +30,7 @@
   }
 }
 
-/*.header__logo {
+.header__logo {
   display: flex;
   height: 100%;
   overflow: hidden;
@@ -52,7 +52,7 @@
       fill: currentColor;
     }
   }
-}*/
+}
 
 .header__inner {
   display: flex;
@@ -64,10 +64,10 @@
 .header__links {
   padding-bottom: .5rem;
   display: none;
-  /*position: absolute;*/
+  position: absolute;
   top: 3.75em;
   left: 0;
-  /*width: 100%;*/
+  width: 100%;
   height: auto;
   background: $bg-color;
 }

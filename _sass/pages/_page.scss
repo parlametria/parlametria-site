@@ -3,7 +3,7 @@
   min-height: 16.25rem;
   width: 100%;
   position: relative;
-  background-color: fuchsia;
+  background-color: #dde5ea;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
@@ -21,7 +21,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: peru;
+    background: rgba(52, 56, 81, .8);
   }
 }
 
@@ -44,7 +44,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: tomato;
+    background: rgba(52, 56, 81, .8);
   }
 }
 
@@ -55,7 +55,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: teal;
+  color: rgba(255, 255, 255, 0.8);
   width: 100%;
   max-width: 90%;
   z-index: 1;
@@ -88,7 +88,7 @@
 }
 
 .blog {
-  background-color: purple;
+  background-color: #f9f9f9;
 }
 
 .post-list {
