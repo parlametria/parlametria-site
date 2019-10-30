@@ -1,27 +1,23 @@
 # Parlametria
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.15.
+Inteligência de dados para ação cidadã.
 
-## Development server
+## Requisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* node 10.15.x
+* [angular cli](https://github.com/angular/angular-cli) 8.3.15
 
-## Code scaffolding
+## Como desenvolver
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Primeiro, instale as dependências do projeto com `npm install`.
 
-## Build
+O comando `npm start` irá subir um servidor em modo de desenvolvimento. Navegue até `http://localhost:4200/` para ver. O aplicativo vai recarregar automaticamente quando houverem mudanças no código fonte.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Como implementar
 
-## Running unit tests
+O comando `npm run build` irá preparar o aplicativo para implantação no servidor de produção. Os arquivos necessários serão gerados no diretório `dist/`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Rodando testes
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+O comando `npm run test` executa testes de unidade via [Karma](https://karma-runner.github.io).
+O comando `npm run e2e` executa testes de integração via [Protractor](http://www.protractortest.org/).
