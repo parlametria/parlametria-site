@@ -1,18 +1,120 @@
-<nav class="navbar navbar-light bg-light">
-  <div class="container">
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="container justify-content-around">
     <ul class="nav">
       <li class="nav-item">
-        <a class="nav-link" routerLink="">Home</a>
+        <a class="nav-link" routerLink="/home">HOME</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/sobre">Sobre</a>
+        <a class="nav-link" routerLink="/">PROJETOS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/">RELATÓRIOS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/">NA MÍDIA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/sobre">SOBRE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/">BLOG</a>
       </li>
     </ul>
   </div>
 </nav>
 
-<div class="container text-center">
+<!-- Header -->
+<header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+            <img src="assets/img/logotipo.png" alt="Parlametria" width="250px">
+        </div>
+      </div>
+    </div>
+</header>
+
+<!-- Módulos -->
+<div class="modules text-center">
+    <div>
+      <h2>Inteligência de dados para ação cidadã</h2>
+    </div>
+
+ <div class="row">
+    <div class="col-sm-6 d-flex justify-content-center" style="padding-bottom: 60px;">
+      <div class="card" style="width: 400px; height: 500px">
+          <img src="assets/img/perfilpol.png" class="card-img-top" alt="..." style="padding-bottom: 32px;">
+        <div class="card-body">
+          <h5 class="card-title">Perfil Parlamentar</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut fringilla nisl, vitae mattis diam. Praesent at tempus libero, nec lobortis leo. Curabitur id finibus justo. Aenean ac rutrum massa. Sed dolor nibh, auctor quis lectus ut, consectetur varius felis. </p>
+          <a href="#" class="btn btn-primary">Acessar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 d-flex justify-content-center" style="padding-bottom: 60px;">
+        <div class="card" style="width: 400px; height: 500px">
+            <img src="assets/img/leggo.png" class="card-img-top" alt="..." > 
+        <div class="card-body">
+          <h5 class="card-title">Leg.go</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut fringilla nisl, vitae mattis diam. Praesent at tempus libero, nec lobortis leo. Curabitur id finibus justo. Aenean ac rutrum massa. Sed dolor nibh, auctor quis lectus ut, consectetur varius felis. </p>
+          <a href="#" class="btn btn-primary">Acessar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- <div class="container text-center">
   <img src="assets/img/logotipo.png" alt="Parlametria" width="250px">
   <h1>Parlametria</h1>
   <router-outlet></router-outlet>
-</div>
+</div> -->
+
+<!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4" style="background-color: white;">
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+        <!-- Grid row -->
+      <div class="row">  
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">  
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
+          <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+            consectetur
+            adipisicing elit.</p>  
+        </div>
+        <!-- Grid column -->  
+        <hr class="clearfix w-100 d-md-none">  
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>  
+        </div>
+        <!-- Grid column -->  
+       
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <hr>
+ 
+  </footer>
+  <!-- Footer -->

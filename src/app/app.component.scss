@@ -1,0 +1,25 @@
+a { // mudar para classe
+    font-weight: 500;
+}
+
+h2{
+    color: white; 
+    padding:50px;
+}
+
+.navbar {
+    border-bottom:2px solid #6842a3;
+}
+
+.masthead {
+    height: 30vh; //antes: 100
+    min-height: 500px;
+    background-image: url('src/assets/img/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.modules{
+  background-color: #6842a3;
+}
