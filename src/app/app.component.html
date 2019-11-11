@@ -1,18 +1,87 @@
-<nav class="navbar navbar-light bg-light">
-  <div class="container">
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="container justify-content-around">
     <ul class="nav">
       <li class="nav-item">
-        <a class="nav-link" routerLink="">Home</a>
+        <a class="nav-link" routerLink="/home">HOME</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/sobre">Sobre</a>
+        <a class="nav-link" routerLink="/projetos">PROJETOS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/relatorios">RELATÓRIOS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/namidia">NA MÍDIA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/sobre">SOBRE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/blog">BLOG</a>
       </li>
     </ul>
   </div>
 </nav>
 
-<div class="container text-center">
-  <img src="assets/img/logotipo.png" alt="Parlametria" width="250px">
-  <h1>Parlametria</h1>
+<!-- Header -->
+<header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+            <img src="assets/img/logotipo.png" alt="Parlametria" width="250px">
+        </div>
+      </div>
+    </div>
+</header>
+
+
+
+<div class="text-center">
+  TEXTOOOOOO
   <router-outlet></router-outlet>
-</div>
+
+
+<!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4" style="background-color: white;">
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+        <!-- Grid row -->
+      <div class="row">  
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">  
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
+          <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+            consectetur
+            adipisicing elit.</p>  
+        </div>
+        <!-- Grid column -->  
+        <hr class="clearfix w-100 d-md-none">  
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>  
+        </div>
+        <!-- Grid column --> 
+      </div>
+      <!-- Grid row --> 
+    </div>
+    <!-- Footer Links --> 
+    <hr> 
+  </footer>
+  <!-- Footer -->

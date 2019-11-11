@@ -2,16 +2,36 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
+import { ProjetosComponent } from './projetos/projetos.component';
+import { RelatoriosComponent } from './relatorios/relatorios.component';
+import { NamidiaComponent } from './namidia/namidia.component';
 import { SobreComponent } from './sobre/sobre.component';
+import { BlogComponent } from './blog/blog.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'home',
     component: HomeComponent
+  },
+  {
+    path: 'projetos',
+    component: ProjetosComponent
+  },
+  {
+    path: 'relatorios',
+    component: RelatoriosComponent
+  },
+  {
+    path: 'namidia',
+    component: NamidiaComponent
   },
   {
     path: 'sobre',
     component: SobreComponent
+  },
+  {
+    path: 'blog',
+    component: BlogComponent
   }
 ];
 

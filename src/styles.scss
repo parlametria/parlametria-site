@@ -3,3 +3,12 @@
 @import "../node_modules/bootstrap/scss/functions";
 @import "assets/bootstrap/variables";
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+a { // mudar para classe
+    font-weight: 500;
+}
+
+h2{
+    color: white; 
+    padding:50px;
+}
