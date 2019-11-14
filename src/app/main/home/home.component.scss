@@ -1,5 +1,5 @@
 //Header
-.logotipo{
+.logotipo {
   width: 40vh; // 250~300px
   padding-top: 5vh;
 }
@@ -15,83 +15,83 @@
 //
 
 // Título (slogan)
-.parlametria-title{
+.parlametria-title {
   background-color: #9cdb52;
   color: #ffffff; 
   padding: 5vh;
 }
 
-h1{
+h1 {
   font-size: 45pt;
 }
 //
 
 // Módulos
-.modules{
+.modules {
     background-color: #6842a3;
 }
 
-h2{
+h2 {
   font-size: 30pt;
   color: #ffffff;
   padding-top: 10vh;
   padding-left: 5vh;
 }
 
-.card-horizontal{
+.card-horizontal {
     display: flex;
     flex: 1 1 auto;
 }
 
-.row{
+.module-row {
   margin:0;
   margin-bottom: 2vh;
 }
 
-.card-title{
+.card-title {
   font-weight: 700;
   font-size: 20pt;
   color: #666666;
 }
 
-.cart-text{
+.cart-text {
   font-weight: 300;
   font-size: 20pt;
   color: #666666;
 }
 
-.btn{
+.btn-acessar {
   border: 2px solid #b79fcc;
   font-weight: 700;
   font-size: 15pt;
   color: #6842a3;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #6842a3;
   color:#ffffff;
 }
 
-.img-square-wrapper{  
+.img-square-wrapper {  
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.vertical-lign{
+.vertical-lign {
   border-left: 3px solid #6842a3;
   height: 80%;
   margin: auto;
 }
 
-.card-img{
+.card-img {
   width: 80%;
 }
 
-.projetos-h2{
+.projetos-h2 {
   padding: 10vh;  
 }
 
-.projetos-text{
+.projetos-text {
   color: #ffffff;  
 }
