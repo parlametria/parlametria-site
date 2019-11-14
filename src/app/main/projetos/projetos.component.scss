@@ -1,0 +1,65 @@
+.projetos-module{
+    background-color: #6842a3;
+    padding-bottom: 10vh;
+}
+
+.navigation{
+    color: #9cdb52;
+}
+
+h2{
+    font-size: 35pt;
+    font-weight: 300;
+    color: #ffffff;
+    padding-top: 10vh;
+    padding-bottom: 2vh;
+  }
+
+.card-horizontal{
+    display: flex;
+    flex: 1 1 auto;    
+}
+.row{
+  margin:0;
+  margin-bottom: 2vh;
+}
+
+.card-title{
+  font-weight: 700;
+  font-size: 20pt;
+  color: #666666;
+}
+
+.cart-text{
+  font-weight: 300;
+  font-size: 20pt;
+  color: #666666;
+}
+
+.btn{
+  border: 2px solid #b79fcc;
+  font-weight: 700;
+  font-size: 15pt;
+  color: #6842a3;
+}
+
+.btn:hover{
+  background-color: #6842a3;
+  color:#ffffff;
+}
+
+.img-square-wrapper{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-lign{
+  border-left: 3px solid #6842a3;
+  height: 80%;
+  margin: auto;
+}
+
+.card-img{
+  width: 80%;
+}

@@ -1,3 +1,20 @@
+//Header
+.logotipo{
+  width: 40vh; // 250~300px
+  padding-top: 5vh;
+}
+
+.masthead {
+  height: 60vh; //antes: 100
+  //min-height: 500px;
+  background-image: url('src/assets/img/banner.png');
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+//
+
+// Título (slogan)
 .parlametria-title{
   background-color: #9cdb52;
   color: #ffffff; 
@@ -7,6 +24,7 @@
 h1{
   font-size: 45pt;
 }
+//
 
 // Módulos
 .modules{
@@ -24,8 +42,10 @@ h2{
     display: flex;
     flex: 1 1 auto;
 }
+
 .row{
   margin:0;
+  margin-bottom: 2vh;
 }
 
 .card-title{
@@ -69,7 +89,7 @@ h2{
 }
 
 .projetos-h2{
-  padding: 10vh;
+  padding: 10vh;  
 }
 
 .projetos-text{
