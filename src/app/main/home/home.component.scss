@@ -1,7 +1,77 @@
 .parlametria-title{
   background-color: #9cdb52;
+  color: #ffffff; 
+  padding: 5vh;
 }
 
+h1{
+  font-size: 45pt;
+}
+
+// Módulos
 .modules{
     background-color: #6842a3;
-  }
+}
+
+h2{
+  font-size: 30pt;
+  color: #ffffff;
+  padding-top: 10vh;
+  padding-left: 5vh;
+}
+
+.card-horizontal{
+    display: flex;
+    flex: 1 1 auto;
+}
+.row{
+  margin:0;
+}
+
+.card-title{
+  font-weight: 700;
+  font-size: 20pt;
+  color: #666666;
+}
+
+.cart-text{
+  font-weight: 300;
+  font-size: 20pt;
+  color: #666666;
+}
+
+.btn{
+  border: 2px solid #b79fcc;
+  font-weight: 700;
+  font-size: 15pt;
+  color: #6842a3;
+}
+
+.btn:hover{
+  background-color: #6842a3;
+  color:#ffffff;
+}
+
+.img-square-wrapper{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-lign{
+  border-left: 3px solid #6842a3;
+  height: 80%;
+  margin: auto;
+}
+
+.card-img{
+  width: 80%;
+}
+
+.projetos-h2{
+  padding: 10vh;
+}
+
+.projetos-text{
+  color: #ffffff;  
+}
