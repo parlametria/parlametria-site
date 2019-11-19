@@ -1,14 +1,25 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,500&display=swap");
-
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap");
 @import "../node_modules/bootstrap/scss/functions";
 @import "assets/bootstrap/variables";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-a { // mudar para classe
-    font-weight: 500;
+// Container
+.module {
+    background-color: #6842a3;
+    padding-bottom: 10vh;
 }
 
-h2{
-    color: white; 
-    padding:50px;
+// Breadcrumb navigation
+.bc-navigation {  
+    background-color: #6842a3;  
+}
+  
+.bc-item > a ,.bc-item.active {
+    font-weight: 500;
+    color: #9cdb52;
+}
+
+// Tags
+a:focus {
+    outline: none;
 }

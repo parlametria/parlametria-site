@@ -1,12 +1,26 @@
+// Navbar
 .navbar {
+    background-color: #f3f4f5;
     border-bottom:2px solid #6842a3;
 }
 
-.masthead {
-    height: 30vh; //antes: 100
-    min-height: 500px;
-    background-image: url('src/assets/img/banner.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+.nav-link {
+    font-weight: 400;
+    font-size: 20pt;
+    color:#6842a3;
+    padding: 30px;
+}
+//
+
+// Footer
+.list-unstyled {
+    font-weight: 300;
+    font-size: 20pt;      
+}
+.page-footer {
+    background-color: #f3f4f5;
+}
+
+.footer-text {
+    color: #666666;  
+}
