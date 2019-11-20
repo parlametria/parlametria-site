@@ -23,11 +23,13 @@
 
 h1 {
   font-size: 45pt;
+  font-weight: 300;
 }
 
 // Módulos
 h2 {
   font-size: 30pt;
+  font-weight: 300;
   color: #ffffff;
   padding-top: 10vh;
   padding-left: 5vh;
@@ -41,6 +43,13 @@ h2 {
 .module-row {
   margin:0;
   margin-bottom: 2vh;
+  display: center;
+  align-items: center;
+}
+
+.card-body {
+  border-left: 3px solid #6842a3;
+  height: 80%;  
 }
 
 .card-title {
@@ -52,7 +61,7 @@ h2 {
 .cart-text {
   font-weight: 300;
   font-size: 20pt;
-  color: #666666;
+  color: #666666;  
 }
 
 .btn-acessar {
@@ -60,6 +69,7 @@ h2 {
   font-weight: 700;
   font-size: 15pt;
   color: #6842a3;
+  margin-bottom: 5vh;
 }
 
 .btn:hover {
@@ -70,7 +80,7 @@ h2 {
 .img-square-wrapper {  
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
 }
 
 .vertical-lign {
@@ -84,9 +94,23 @@ h2 {
 }
 
 .projetos-h2 {
-  padding: 10vh;  
+  padding: 5vh;  
 }
 
 .projetos-text {
   color: #ffffff;  
+}
+
+@media (max-width: 768px) {
+  .img-square-wrapper {  
+    width: 100%;
+  }
+
+  .card-body {
+    border: none;  
+  }
+
+  .btn-acessar {
+    margin: 0;
+  }
 }
