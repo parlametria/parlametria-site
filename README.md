@@ -14,6 +14,7 @@ Primeiro, instale as dependências do projeto com `npm install`.
 O comando `npm start` irá subir um servidor em modo de desenvolvimento. Navegue até `http://localhost:4200/` para ver. O aplicativo vai recarregar automaticamente quando houverem mudanças no código fonte.
 
 ### Docker-Compose
+
 Para rodar o projeto com [Docker-compose](https://docs.docker.com/compose/install/), basta executar o comando `sudo docker-compose up`.
 
 ## Como implementar
