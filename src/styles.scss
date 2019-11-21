@@ -19,7 +19,28 @@
     color: #9cdb52;
 }
 
-// Tags
+// Seção
+.section-content {
+    padding-bottom: 5vh;
+}
+
+// Estilização de texto
+.section-title {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 3rem;
+    padding-bottom: 2vh;
+}
+
+.section-text {
+    color: #ffffff;
+    text-align: justify;
+}
+
+.section-text:hover {
+    color: #ffffff;
+}
+
 a:focus {
     outline: none;
 }

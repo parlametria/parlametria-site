@@ -1,0 +1,38 @@
+.section-quemfaz {
+    background-color: #ffffff;
+    padding: 5vh;
+}
+
+.text-quemfaz {
+    font-weight: 700;
+    font-size: 20pt;
+    color: #666666;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.imgs-quemfaz {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-quemfaz {
+    width: 100%;
+    padding: 2vh;
+}
+
+.container-quemfaz {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .logo-quemfaz {
+        width: 80%;
+        padding: 5vh;
+    }
+
+    .text-quemfaz {
+        text-align: center;
+    }
+
+}
