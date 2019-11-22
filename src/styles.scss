@@ -24,6 +24,53 @@
     padding-bottom: 5vh;
 }
 
+// Módulos
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.module-row {
+  margin:0;
+  margin-bottom: 2vh;
+  display: center;
+  align-items: center;
+}
+
+.card-body {
+  border-left: 3px solid #6842a3;
+  height: 80%;  
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 20pt;
+  color: #666666;
+}
+
+.btn-acessar {
+  border: 2px solid #b79fcc;
+  font-weight: 700;
+  font-size: 15pt;
+  color: #6842a3;
+  margin-bottom: 5vh;
+}
+
+.btn:hover {
+  background-color: #6842a3;
+  color:#ffffff;
+}
+
+@media (max-width: 768px) {
+  .card-body {
+    border: none;  
+  }
+
+  .btn-acessar {
+    margin: 0;
+  }
+}
+
 // Estilização de texto
 .section-title {
     color: #ffffff;
