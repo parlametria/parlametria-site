@@ -1,0 +1,9 @@
+.card-body {
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .card-block {
+        padding-bottom: 5vh;
+    }
+}
