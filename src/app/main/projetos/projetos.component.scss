@@ -1,57 +1,37 @@
-
 h2 {
-    font-size: 35pt;
-    font-weight: 300;
-    color: #ffffff;
-    padding-top: 10vh;
-    padding-bottom: 2vh;
-  }
-
-.card-horizontal {
-    display: flex;
-    flex: 1 1 auto;    
-}
-.module-row {
-  margin:0;
-  margin-bottom: 2vh;
-}
-
-.card-title {
-  font-weight: 700;
-  font-size: 20pt;
-  color: #666666;
-}
-
-.cart-text {
+  font-size: 35pt;
   font-weight: 300;
-  font-size: 20pt;
-  color: #666666;
+  color: #ffffff;
+  padding-top: 0;
+  padding-bottom: 2vh;
 }
 
-.btn-acessar {
-  border: 2px solid #b79fcc;
-  font-weight: 700;
-  font-size: 15pt;
-  color: #6842a3;
+.historico-title {
+  padding-top: 5vh;
 }
 
-.btn:hover {
-  background-color: #6842a3;
-  color:#ffffff;
-}
-
+// Módulos
 .img-square-wrapper {  
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.vertical-lign {
-  border-left: 3px solid #6842a3;
-  height: 80%;
-  margin: auto;
+  align-items: center;  
 }
 
 .card-img {
   width: 80%;
+}
+
+
+@media (max-width: 768px) {
+  .img-square-wrapper {  
+    width: 100%;
+  }
+
+  .card-body {
+    border: none;  
+  }
+
+  .btn-acessar {
+    margin: 0;
+  }
 }
