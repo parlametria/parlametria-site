@@ -1,45 +1,19 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-md navbar-light navbar-home">    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbarSm">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="navbar-collapse collapse justify-content-md-center" id="collapsingNavbarSm">
-        <ul class="nav navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" routerLink="/home">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" routerLink="/projetos">PROJETOS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" routerLink="/relatorios">RELATÓRIOS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" routerLink="/namidia">NA MÍDIA</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" routerLink="/sobre">SOBRE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" routerLink="/blog">BLOG</a>
-              </li>
-        </ul>
-    </div>
-</nav>
+<app-navbar></app-navbar>
 
-<div class="text-center">    
+<div class="text-center">
   <router-outlet></router-outlet>
 </div>
 
 <!-- Footer -->
 <footer class="page-footer font-small stylish-color-dark pt-4">
     <div class="container text-center text-md-left">
-      <div class="row">  
+      <div class="row">
         <div class="col-md-4 mx-auto">
-          <img src="/assets/img/dadocapital.png" class="logo-footer" alt="">          
-          <p>LOGOS OK, UFCG etc</p>  
+          <img src="/assets/img/dadocapital.png" class="logo-footer" alt="">
+          <p>LOGOS OK, UFCG etc</p>
         </div>
-        <div class="col-md-3 mx-auto text-right">  
+        <div class="col-md-3 mx-auto text-right">
           <ul class="list-unstyled">
             <li>
               <a href="/projetos" class="footer-text">Projetos</a>
@@ -56,9 +30,9 @@
             <li>
               <a href="/blog" class="footer-text">Blog</a>
             </li>
-          </ul> 
+          </ul>
         </div>
-        <div class="col-md-3 mx-auto text-right">  
+        <div class="col-md-3 mx-auto text-right">
             <ul class="list-unstyled">
               <li>
                 <a href="mailto:contato@ok.org.br" class="footer-text">contato@ok.org.br</a>
@@ -67,10 +41,10 @@
                 <a href="http://br.okfn.org" class="footer-text" target="_blank">br.okfn.org</a>
               </li>
               <li>
- 
-            </ul> 
+
+            </ul>
           </div>
       </div>
     </div>
-    <hr> 
+    <hr>
 </footer>
