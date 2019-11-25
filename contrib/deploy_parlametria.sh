@@ -1,5 +1,5 @@
 export CURRENT_DIR=$(pwd)
 cd /root/Parlametria
 git pull origin master
-docker-compose -f up
+docker-compose up -d &&
 cd $CURRENT_DIR
