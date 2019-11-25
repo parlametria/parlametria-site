@@ -1,71 +1,94 @@
 <!-- Header -->
 <header class="masthead">
-    <div class="container">
-        <div class="row h-100 align-items-center">
-            <img
-                src="assets/img/logotipo.png"
-                alt="Parlametria"
-                class="logotipo img-fluid rounded mx-auto d-block"
-            >
-        </div>
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-8 col-sm-5 col-lg-3">
+        <img
+          src="assets/img/logotipo.png"
+          alt="Parlametria"
+          class="logotipo img-fluid"
+        >
+      </div>
     </div>
+  </div>
 </header>
 
 <div class="parlametria-title">
-    <h1>Inteligência de dados para ação cidadã</h1>
+  <h1 class="slogan">Inteligência de dados para ação cidadã</h1>
 </div>
 
 <!-- Módulos -->
 <div class="module">
-    <h2 class="text-left">Conheça nossos projetos ativos</h2>
-    <div class="container-fluid">       
-        <div class="col-12 mt-3">
-            <div class="card">
-                <div class="card-horizontal">
-                    <div class="row module-row">
-                        <div class="img-square-wrapper col-md-4">
-                            <img src="assets/img/perfil_parlamentar.png" class="card-img w-80">
-                        </div>                                                                 
-                        <div class="col-md-8 px-3 card-body">                                                        
-                            <div class="card-block px-3 ">
-                                <h4 class="card-title text-left">PERFIL PARLAMENTAR</h4>
-                                <p class="card-text text-left">
-                                    A plataforma apresenta cruzamentos de bases de dados que revelam informações sobre quem são os deputados federais e senadores, como se posicionam nas votações e quais os seus vínculos e afinidades políticas e econômicas dentro e fora do Legislativo. Além de consulta individual, é possível ter uma visão geral das duas Casas Legislativas. 
-                                </p>
-                                <div class="text-right">
-                                    <a href class="btn btn-acessar text-right"> ACESSAR </a>
-                                </div>
-                            </div>
-                        </div>        
-                    </div>
-                </div>
-            </div>            
-        </div>
-
-        <div class="col-12 mt-3">
-                <div class="card">
-                    <div class="card-horizontal">
-                        <div class="row module-row">
-                            <div class="img-square-wrapper col-md-4">
-                                <img src="assets/img/leggo.png" class="card-img w-80">
-                            </div>                                                                 
-                            <div class="col-md-8 px-3 card-body">                                                        
-                                <div class="card-block px-3 ">
-                                    <h4 class="card-title text-left">LEG.GO</h4>
-                                    <p class="card-text text-left">
-                                        No Leg.go, o foco são as proposições. Para isso, utilizamos o aprendizado de máquina e a ciência de dados para coletar informações da Câmara dos Deputados e do Senado Federal. Com isso, identificamos a temperatura das proposições, o que tramita com mais energia, como o conteúdo dos projetos é alterado e quem são os atores importantes nesse processo.
-                                    </p>
-                                    <div class="text-right">
-                                        <a href class="btn btn-acessar text-right"> ACESSAR </a>
-                                    </div>
-                                </div>
-                            </div>        
-                        </div>
-                    </div>
-                </div>            
+  <div class="container">
+    <h2 class="module-title text-left">Conheça nossos projetos ativos</h2>
+    <div class="card mt-3">
+      <div class="card-horizontal">
+        <div class="row module-row">
+          <div class="img-square-wrapper col-md-4">
+            <img
+              src="assets/img/perfil_parlamentar.png"
+              class="card-img w-80"
+            >
+          </div>
+          <div class="col-md-8 px-3 card-body">
+            <div class="card-block px-3 ">
+              <h4 class="card-title text-left">PERFIL PARLAMENTAR</h4>
+              <p class="card-text text-left">
+                A plataforma apresenta cruzamentos de bases de dados que revelam informações sobre quem são os deputados federais e senadores, como se posicionam nas votações e quais os seus vínculos e afinidades políticas e econômicas dentro e fora do Legislativo. Além de consulta individual, é possível ter uma visão geral das duas Casas Legislativas.
+              </p>
+              <div class="text-right">
+                <a
+                  href="https://perfil.parlametria.org/"
+                  class="btn btn-acessar text-right"
+                  target="_blank"
+                >
+                  ACESSAR
+                </a>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <h2 class="projetos-h2 text-left">
-        <a href="/projetos" class="projetos-text">Projetos anteriores? Veja o histórico</a>
+
+    <div class="card mt-3">
+      <div class="card-horizontal">
+        <div class="row module-row">
+          <div class="img-square-wrapper col-md-4">
+            <img
+              src="assets/img/leggo.png"
+              class="card-img w-80"
+            >
+          </div>
+          <div class="col-md-8 px-3 card-body">
+            <div class="card-block px-3 ">
+              <h4 class="card-title text-left">LEG.GO</h4>
+              <p class="card-text text-left">
+                No Leg.go, o foco são as proposições. Para isso, utilizamos o aprendizado de máquina e a ciência de dados para coletar informações da Câmara dos Deputados e do Senado Federal. Com isso, identificamos a temperatura das proposições, o que tramita com mais energia, como o conteúdo dos projetos é alterado e quem são os atores importantes nesse processo.
+              </p>
+              <div class="text-right">
+                <a
+                  href="https://leggo.parlametria.org/"
+                  class="btn btn-acessar text-right"
+                  target="_blank"
+                >
+                  ACESSAR
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 class="module-title text-left pt-4">
+      Projetos anteriores?
+      <a
+        routerLink="/projetos"
+        class="projetos-text"
+      >
+        Veja o histórico
+      </a>
+
     </h2>
+  </div>
 </div>

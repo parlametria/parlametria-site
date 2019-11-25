@@ -1,0 +1,90 @@
+<nav
+  class="navbar navbar-expand-lg navbar-light navbar-home"
+  (click)="toggleNavbar()"
+>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbar"
+    aria-controls="navbar"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div
+    class="collapse navbar-collapse"
+    [ngClass]="{ 'show': navbarOpen }"
+    id="navbar"
+  >
+    <ul class="navbar-nav mr-auto ml-auto">
+      <li
+        class="nav-item"
+        [routerLinkActive]="['active']"
+      >
+        <a
+          class="nav-link nav-link-home"
+          routerLink="/home"
+        >
+          Home
+        </a>
+      </li>
+      <li
+        class="nav-item"
+        [routerLinkActive]="['active']"
+      >
+        <a
+          class="nav-link nav-link-home"
+          routerLink="/projetos"
+        >
+          Projetos
+        </a>
+      </li>
+      <li
+        class="nav-item"
+        [routerLinkActive]="['active']"
+      >
+        <a
+          class="nav-link nav-link-home"
+          routerLink="/relatorios"
+        >
+          Relatórios
+        </a>
+      </li>
+      <li
+        class="nav-item"
+        [routerLinkActive]="['active']"
+      >
+        <a
+          class="nav-link nav-link-home"
+          routerLink="/namidia"
+        >
+          Na Mídia
+        </a>
+      </li>
+      <li
+        class="nav-item"
+        [routerLinkActive]="['active']"
+      >
+        <a
+          class="nav-link nav-link-home"
+          routerLink="/sobre"
+        >
+          Sobre
+        </a>
+      </li>
+      <li
+        class="nav-item"
+        [routerLinkActive]="['active']"
+      >
+        <a
+          class="nav-link nav-link-home"
+          routerLink="/blog"
+        >
+          Blog
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
