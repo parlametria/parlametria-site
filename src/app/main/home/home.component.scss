@@ -1,13 +1,11 @@
 //Header
 .logotipo {
-  width: 40vh; // 250~300px
-  padding-top: 5vh;
+  padding-top: 2rem;
 }
 
 .masthead {
-  height: 60vh; 
-  //min-height: 500px;
-  background-image: url('src/assets/img/banner.png');
+  height: 50vh;
+  background-image: url("src/assets/img/banner.png");
   background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -17,31 +15,38 @@
 // Título (slogan)
 .parlametria-title {
   background-color: #9cdb52;
-  color: #ffffff; 
+  color: #ffffff;
   padding: 5vh;
 }
 
-h1 {
-  font-size: 45pt;
+.slogan {
+  font-size: 2.5rem;
   font-weight: 300;
+
+  @media (min-width: 768px) {
+    font-size: 3rem;
+    font-weight: 500;
+  }
 }
 
 // Módulos
-h2 {
-  font-size: 30pt;
-  font-weight: 300;
+.module {
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+}
+.module-title {
+  font-size: 2rem;
+  font-weight: 500;
   color: #ffffff;
-  padding-top: 10vh;
-  padding-left: 5vh;
 }
 
 .card-horizontal {
-    display: flex;
-    flex: 1 1 auto;
+  display: flex;
+  flex: 1 1 auto;
 }
 
 .module-row {
-  margin:0;
+  margin: 0;
   margin-bottom: 2vh;
   display: center;
   align-items: center;
@@ -49,7 +54,7 @@ h2 {
 
 .card-body {
   border-left: 3px solid #6842a3;
-  height: 80%;  
+  height: 80%;
 }
 
 .card-title {
@@ -61,7 +66,7 @@ h2 {
 .cart-text {
   font-weight: 300;
   font-size: 20pt;
-  color: #666666;  
+  color: #666666;
 }
 
 .btn-acessar {
@@ -74,13 +79,13 @@ h2 {
 
 .btn:hover {
   background-color: #6842a3;
-  color:#ffffff;
+  color: #ffffff;
 }
 
-.img-square-wrapper {  
+.img-square-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
 .vertical-lign {
@@ -93,21 +98,17 @@ h2 {
   width: 80%;
 }
 
-.projetos-h2 {
-  padding: 5vh;  
-}
-
 .projetos-text {
-  color: #ffffff;  
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
-  .img-square-wrapper {  
+  .img-square-wrapper {
     width: 100%;
   }
 
   .card-body {
-    border: none;  
+    border: none;
   }
 
   .btn-acessar {
