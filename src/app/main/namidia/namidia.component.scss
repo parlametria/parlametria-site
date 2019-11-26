@@ -8,3 +8,9 @@
 .namidia-img {
     max-width: 80%;
 }
+
+@media (max-width: 768px) {
+    .namidia-col {
+        margin-bottom: 5vh;
+    }
+}
