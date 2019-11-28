@@ -1,4 +1,4 @@
-import { Component, OnInit, HostListener } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -25,13 +25,6 @@ export class NavbarComponent implements OnInit {
     event.preventDefault();
     event.stopPropagation();
     this.clicked = true;
-  }
-
-  @HostListener('document:click', ['event'])
-  private clickedOutside(event): void {
-    if (this.clicked) {
-      this.element.nativeElement.querySelector('.dropdown-menu').classList.toggle('show');
-    }
   }
 
 }
