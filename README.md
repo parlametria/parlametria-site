@@ -25,3 +25,12 @@ O comando `npm run build` irá preparar o aplicativo para implantação no servi
 
 O comando `npm run test` executa testes de unidade via [Karma](https://karma-runner.github.io).
 O comando `npm run e2e` executa testes de integração via [Protractor](http://www.protractortest.org/).
+
+## Repositórios relacionados
+
+Caso encontre algum problema em um dos projetos do Parlametria ou queira
+contribuir com eles, utilize os respectivos repositórios:
+
+* [Leg.go](https://github.com/analytics-ufcg/leggo-geral): [frontend](https://github.com/analytics-ufcg/leggo-frontend) / [backend](https://github.com/analytics-ufcg/leggo-backend)
+* [Perfil Parlamentar](https://github.com/analytics-ufcg/perfil-politico): [frontend](https://github.com/analytics-ufcg/perfil-parlamentar-frontend)
+
