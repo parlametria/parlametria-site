@@ -13,7 +13,7 @@ import { ApiService } from 'src/app/services/api.service';
 })
 export class SociosEmpresasCampanhaComponent implements OnInit, OnDestroy {
 
-  columnDefs = [
+  columnDefsSetoresEconomicos = [
     {
       headerName: 'Nome',
       field: 'nome_eleitoral',
@@ -63,9 +63,70 @@ export class SociosEmpresasCampanhaComponent implements OnInit, OnDestroy {
     }
   ];
 
+
+  columnDefsSociosDoadoresPartidos = [
+    {
+      headerName: 'Partido',
+      field: 'sg_partido',
+      sortable: true,
+      filter: 'agTextColumnFilter',
+      width: 90
+    },
+    {
+      headerName: 'Atividade Econômica',
+      field: 'grupo_atividade_economica',
+      sortable: true,
+      filter: true
+    },
+    {
+      headerName: 'CPF',
+      field: 'cpf_cnpj_doador',
+      sortable: true,
+      filter: true,
+      width: 120
+    },
+    {
+      headerName: 'Nome',
+      field: 'nome_doador',
+      sortable: true,
+      filter: true
+    },
+    {
+      headerName: 'Total',
+      field: 'total_financiado',
+      sortable: true,
+      filter: 'agNumberColumnFilter',
+      width: 90
+    },
+    {
+      headerName: 'Nº Empresas',
+      field: 'n_empresas',
+      sortable: true,
+      filter: 'agNumberColumnFilter',
+      width: 120
+    },
+    {
+      headerName: 'CNPJs',
+      field: 'empresas_cnpj',
+      sortable: true,
+      filter: true,
+      width: 120
+    },
+    {
+      headerName: 'Empresas',
+      field: 'empresas_razao_social',
+      sortable: true,
+      filter: true,
+      width: 140
+    }
+  ];
+
   private unsubscribe = new Subject();
 
-  rowData: any;
+  deputadosPorSetorEconomico: any;
+  senadoresPorSetorEconomico: any;
+  partidosDeputadosSetorEconomicoSocios: any;
+  partidosSenadoresSetorEconomicoSocios: any;
   suplentesDoadores: any;
 
   modules = AllCommunityModules;
@@ -73,7 +134,10 @@ export class SociosEmpresasCampanhaComponent implements OnInit, OnDestroy {
   constructor(private apiService: ApiService) { }
 
   ngOnInit() {
-    this.rowData = this.apiService.getJson('deputados-setor-economico.json');
+    this.deputadosPorSetorEconomico = this.apiService.getJson('deputados-setor-economico.json');
+    this.senadoresPorSetorEconomico = this.apiService.getJson('senadores-setor-economico.json');
+    this.partidosDeputadosSetorEconomicoSocios = this.apiService.getJson('partidos-deputados-setor-economico-socios.json');
+    this.partidosSenadoresSetorEconomicoSocios = this.apiService.getJson('partidos-senadores-setor-economico-socios.json');
 
     this.apiService.getJson('suplentes-doadores-senado.json')
       .pipe(takeUntil(this.unsubscribe))
