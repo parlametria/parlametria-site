@@ -6,11 +6,16 @@ import { HomeComponent } from './home/home.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { BlogComponent } from './blog/blog.component';
 import { ProjetosComponent } from './projetos/projetos.component';
-import { RelatoriosComponent } from './relatorios/relatorios.component';
 import { NamidiaComponent } from './namidia/namidia.component';
 
 @NgModule({
-  declarations: [HomeComponent, SobreComponent, BlogComponent, ProjetosComponent, RelatoriosComponent, NamidiaComponent],
+  declarations: [
+    HomeComponent,
+    SobreComponent,
+    BlogComponent,
+    ProjetosComponent,
+    NamidiaComponent
+  ],
   imports: [
     CommonModule,
     MainRoutingModule
