@@ -1,0 +1,135 @@
+[
+    {
+        "senador": "Eduardo Gomes",
+        "partido": "MDB",
+        "UF": "TO",
+        "suplente": "Ogari de Castro Pacheco",
+        "doacao": "R$ 1.558.550,00"
+    },
+    {
+        "senador": "Izalci Lucas",
+        "partido": "PSDB",
+        "UF": "DF",
+        "suplente": "Luis Felipe Belmonte dos Santos",
+        "doacao": "R$ 1.480.000,00"
+    },
+    {
+        "senador": "Cid Gomes",
+        "partido": "PDT",
+        "UF": "CE",
+        "suplente": "Prisco Rodrigues Bezerra",
+        "doacao": "R$ 1.300.000,00"
+    },
+    {
+        "senador": "Marcos Rogério",
+        "partido": "DEM",
+        "UF": "RO",
+        "suplente": "Samuel Pereira de Araujo",
+        "doacao": "R$ 855.000,00"
+    },
+    {
+        "senador": "Renan Calheiros",
+        "partido": "MDB",
+        "UF": "AL",
+        "suplente": "Cicero Rafael Tenorio da Silva",
+        "doacao": "R$ 500.000,00"
+    },
+    {
+        "senador": "Juíza Selma",
+        "partido": "PODEMOS",
+        "UF": "MT",
+        "suplente": "Gilberto Eglair Possamai",
+        "doacao": "R$ 310.000,00"
+    },
+    {
+        "senador": "Veneziano Vital do Rêgo",
+        "partido": "PSB",
+        "UF": "PB",
+        "suplente": "Ney Robinson Suassuna",
+        "doacao": "R$ 300.000,00"
+    },
+    {
+        "senador": "Confúcio Moura",
+        "partido": "MDB",
+        "UF": "RO",
+        "suplente": "Maria Eliza de Aguiar e Silva",
+        "doacao": "R$ 283.553,00"
+    },
+    {
+        "senador": "Jorge Kajuru",
+        "partido": "CIDADANIA",
+        "UF": "GO",
+        "suplente": "Benjamin Beze Junior",
+        "doacao": "R$ 144.751,00"
+    },
+    {
+        "senador": "Jorge Kajuru",
+        "partido": "CIDADANIA",
+        "UF": "GO",
+        "suplente": "Milton Jose das Mercez",
+        "doacao": "R$ 36.880,00"
+    },
+    {
+        "senador": "Jorginho Mello",
+        "partido": "PL",
+        "UF": "SC",
+        "suplente": "Jose Roberto Martins",
+        "doacao": "R$ 25.000,00"
+    },
+    {
+        "senador": "Flávio Arns",
+        "partido": "REDE",
+        "UF": "PR",
+        "suplente": "Vilson Vilmar Basso",
+        "doacao": "R$ 19.000,00"
+    },
+    {
+        "senador": "Ciro Nogueira",
+        "partido": "PP",
+        "UF": "PI",
+        "suplente": "Eliane e Silva Nogueira Lima",
+        "doacao": "R$ 18.360,00"
+    },
+    {
+        "senador": "Carlos Viana",
+        "partido": "PSD",
+        "UF": "MG",
+        "suplente": "Lael Vieira Varella",
+        "doacao": "R$ 16.000,00"
+    },
+    {
+        "senador": "Nelsinho Trad",
+        "partido": "PSD",
+        "UF": "MS",
+        "suplente": "Jose Chagas dos Santos",
+        "doacao": "R$ 12.000,00"
+    },
+    {
+        "senador": "Daniella Ribeiro",
+        "partido": "PP",
+        "UF": "PB",
+        "suplente": "Marcio Diego Fernandes Tavares de Albuquerque",
+        "doacao": "R$ 3.000,00"
+    },
+    {
+        "senador": "Major Olimpio",
+        "partido": "PSL",
+        "UF": "SP",
+        "suplente": "Marcos Cesar Pontes",
+        "doacao": "R$ 2.178,00"
+    },
+    {
+        "senador": "Luis Carlos Heinze",
+        "partido": "PP",
+        "UF": "RS",
+        "suplente": "Ireneu Orth",
+        "doacao": "R$ 1.000,00"
+    },
+    {
+        "senador": "Fabiano Contarato",
+        "partido": "REDE",
+        "UF": "ES",
+        "suplente": "Bento Odeodato Porto",
+        "doacao": "R$ 500,00"
+    }
+]
