@@ -65,7 +65,9 @@ export class SociosEmpresasCampanhaComponent implements OnInit, OnDestroy {
 
   private unsubscribe = new Subject();
 
-  rowData: any;
+  deputadosPorSetorEconomico: any;
+  senadoresPorSetorEconomico: any;
+
   suplentesDoadores: any;
 
   modules = AllCommunityModules;
@@ -73,7 +75,8 @@ export class SociosEmpresasCampanhaComponent implements OnInit, OnDestroy {
   constructor(private apiService: ApiService) { }
 
   ngOnInit() {
-    this.rowData = this.apiService.getJson('deputados-setor-economico.json');
+    this.deputadosPorSetorEconomico = this.apiService.getJson('deputados-setor-economico.json');
+    this.senadoresPorSetorEconomico = this.apiService.getJson('senadores-setor-economico.json');
 
     this.apiService.getJson('suplentes-doadores-senado.json')
       .pipe(takeUntil(this.unsubscribe))
