@@ -280,7 +280,7 @@
         style="width: 100%; height: 500px;"
         class="ag-theme-balham"
         [rowData]="deputadosPorSetorEconomico | async"
-        [columnDefs]="columnDefs"
+        [columnDefs]="columnDefsSetoresEconomicos"
         [modules]="modules"
         [pagination]="true"
         [paginationPageSize]="30"
@@ -299,7 +299,43 @@
         style="width: 100%; height: 500px;"
         class="ag-theme-balham"
         [rowData]="senadoresPorSetorEconomico | async"
-        [columnDefs]="columnDefs"
+        [columnDefs]="columnDefsSetoresEconomicos"
+        [modules]="modules"
+        [pagination]="true"
+        [paginationPageSize]="30"
+      >
+      </ag-grid-angular>
+    </div>
+    <div class="text-wrapper">
+      <h2>
+        Sócios que mais doaram para partidos na Câmara
+      </h2>
+    </div>
+
+    <div class="table-wrapper">
+      <ag-grid-angular
+        style="width: 100%; height: 500px;"
+        class="ag-theme-balham"
+        [rowData]="partidosDeputadosSetorEconomicoSocios | async"
+        [columnDefs]="columnDefsSociosDoadoresPartidos"
+        [modules]="modules"
+        [pagination]="true"
+        [paginationPageSize]="30"
+      >
+      </ag-grid-angular>
+    </div>
+    <div class="text-wrapper">
+      <h2>
+        Sócios que mais doaram para partidos no Senado
+      </h2>
+    </div>
+
+    <div class="table-wrapper">
+      <ag-grid-angular
+        style="width: 100%; height: 500px;"
+        class="ag-theme-balham"
+        [rowData]="partidosSenadoresSetorEconomicoSocios | async"
+        [columnDefs]="columnDefsSociosDoadoresPartidos"
         [modules]="modules"
         [pagination]="true"
         [paginationPageSize]="30"
