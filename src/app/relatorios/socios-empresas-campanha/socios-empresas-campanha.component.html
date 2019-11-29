@@ -244,7 +244,26 @@
       O levantamento identificou 19 casos de suplentes de senadores que são sócios de empresas de diferentes setores e que doaram para a campanha do senador eleito. Em alguns dos casos, os suplentes chegam a aportar mais de R$ 1 milhão à campanha do senador. A tabela abaixo lista os 19 casos em que suplentes empresários doaram para as campanhas das quais participaram.
     </p>
 
-    <p>Tabela doações de senadores suplentes</p>
+    <table class="table table-striped table-sm">
+      <thead>
+        <tr>
+          <th scope="col">Senador Eleito</th>
+          <th scope="col">Partido</th>
+          <th scope="col">UF</th>
+          <th scope="col">Suplente empresário e doador</th>
+          <th scope="col">Doação</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let suplente of suplentesDoadores">
+          <td>{{ suplente?.senador }}</td>
+          <td>{{ suplente?.partido }}</td>
+          <td>{{ suplente?.UF }}</td>
+          <td>{{ suplente?.suplente }}</td>
+          <td>{{ suplente?.doacao }}</td>
+        </tr>
+      </tbody>
+    </table>
 
   </div>
 
