@@ -1,9 +1,46 @@
 .relatorios-wrapper {
-  max-width: 680px;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 4rem;
   padding-bottom: 4rem;
 
   text-align: left;
+}
+
+.text-wrapper {
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+
+  > p {
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 0;
+
+    @media (min-width: 768px) {
+      font-size: 20px;
+    }
+  }
+
+  > h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    @media (min-width: 768px) {
+      font-size: 38px;
+    }
+  }
+
+  > h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+
+    @media (min-width: 768px) {
+      font-size: 28px;
+    }
+  }
 }
