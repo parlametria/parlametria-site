@@ -52,3 +52,14 @@
 .row-nowrap {
   white-space: nowrap;
 }
+
+.lista-wrapper {
+  > ol {
+    -moz-column-count: 2;
+    -moz-column-gap: 40px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 40px;
+    column-count: 2;
+    column-gap: 40px;
+  }
+}
