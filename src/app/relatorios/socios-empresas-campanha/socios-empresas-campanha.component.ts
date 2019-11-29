@@ -30,31 +30,36 @@ export class SociosEmpresasCampanhaComponent implements OnInit, OnDestroy {
       headerName: 'Proporção da Doação',
       field: 'proporcao_doacao',
       sortable: true,
-      filter: true
+      filter: true,
+      width: 180
     },
     {
       headerName: 'Partido',
       field: 'sg_partido',
       sortable: true,
-      filter: true
+      filter: true,
+      width: 100
     },
     {
       headerName: 'Total por atividade',
       field: 'total_por_atividade',
       sortable: true,
-      filter: 'agNumberColumnFilter'
+      filter: 'agNumberColumnFilter',
+      width: 160
     },
     {
       headerName: 'Total Recebido',
       field: 'total_recebido_geral',
       sortable: true,
-      filter: 'agNumberColumnFilter'
+      filter: 'agNumberColumnFilter',
+      width: 160
     },
     {
       headerName: 'UF',
       field: 'uf',
       sortable: true,
-      filter: true
+      filter: true,
+      width: 60
     }
   ];
 
