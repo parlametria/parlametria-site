@@ -4,7 +4,7 @@
  */
  $spacing-between-el: 2rem;
  $spacing: $spacing-between-el * 2;
-
+ $spacing-separator: $spacing-between-el * 3;
 
 .relatorios-wrapper {
   padding-top:  $spacing;
@@ -105,6 +105,7 @@
 }
 
 .separator {
-  margin-top: $spacing;
-  margin-bottom: $spacing;
+  margin-top: $spacing-separator;
+  margin-bottom: $spacing-separator;
+  border-top: 2px solid #6842a3;
 }
