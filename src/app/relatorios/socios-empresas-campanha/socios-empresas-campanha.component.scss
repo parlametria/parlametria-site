@@ -1,0 +1,111 @@
+/**
+ * Espaçamento entre elementos do relatório
+ * Tabelas, texto, imagens...
+ */
+ $spacing-between-el: 2rem;
+ $spacing: $spacing-between-el * 2;
+ $spacing-separator: $spacing-between-el * 3;
+
+.relatorios-wrapper {
+  padding-top:  $spacing;
+  padding-bottom:  $spacing;
+
+  text-align: left;
+}
+
+.text-wrapper {
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+
+  > p {
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 400;
+    margin-top: $spacing-between-el;
+    margin-bottom: 0;
+
+    @media (min-width: 768px) {
+      font-size: 20px;
+    }
+  }
+
+  > h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    @media (min-width: 768px) {
+      font-size: 38px;
+    }
+  }
+
+  > h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+
+    @media (min-width: 768px) {
+      font-size: 28px;
+    }
+  }
+}
+
+.table-wrapper {
+  margin-top: $spacing-between-el;
+}
+
+.row-nowrap {
+  white-space: nowrap;
+}
+
+.lista-wrapper {
+  margin-top: $spacing-between-el;
+  font-weight: 400;
+
+  > ol {
+    -moz-column-count: 1;
+    -moz-column-gap: 40px;
+    -webkit-column-count: 1;
+    -webkit-column-gap: 40px;
+    column-count: 1;
+    column-gap: 40px;
+
+    @media (min-width: 768px) {
+      -moz-column-count: 2;
+      -moz-column-gap: 40px;
+      -webkit-column-count: 2;
+      -webkit-column-gap: 40px;
+      column-count: 2;
+      column-gap: 40px;
+    }
+  }
+}
+
+.horizontal-img-scroll {
+  width: 100%;
+  white-space: nowrap;
+  margin-top: $spacing-between-el;
+
+  @media (max-width: 575.98px) {
+    overflow-x: scroll;
+  }
+
+  > .horizontal-img {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (max-width: 575.98px) {
+      width: 730px;
+    }
+  }
+}
+
+.separator {
+  margin-top: $spacing-separator;
+  margin-bottom: $spacing-separator;
+  border-top: 2px solid #6842a3;
+}

@@ -1,0 +1,30 @@
+.module-row:last-child {
+  margin-bottom: 4vh;
+}
+
+.card-body {
+  border: none;
+}
+
+.section-relatorio {
+  background-color: #ffffff;
+  padding: 5vh;
+}
+
+.section-text {
+  color: #666666;
+}
+
+.title-relatorio-content {
+  font-weight: 700;
+  font-size: 20pt;
+  color: #666666;
+  text-align: left;
+  padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .card-horizontal {
+      margin-bottom: 5vh;
+  }
+}
