@@ -62,13 +62,25 @@
 }
 
 .lista-wrapper {
+  margin-top: $spacing-between-el;
+  font-weight: 400;
+
   > ol {
-    -moz-column-count: 2;
+    -moz-column-count: 1;
     -moz-column-gap: 40px;
-    -webkit-column-count: 2;
+    -webkit-column-count: 1;
     -webkit-column-gap: 40px;
-    column-count: 2;
+    column-count: 1;
     column-gap: 40px;
+
+    @media (min-width: 768px) {
+      -moz-column-count: 2;
+      -moz-column-gap: 40px;
+      -webkit-column-count: 2;
+      -webkit-column-gap: 40px;
+      column-count: 2;
+      column-gap: 40px;
+    }
   }
 }
 
@@ -90,4 +102,9 @@
       width: 730px;
     }
   }
+}
+
+.separator {
+  margin-top: $spacing;
+  margin-bottom: $spacing;
 }
