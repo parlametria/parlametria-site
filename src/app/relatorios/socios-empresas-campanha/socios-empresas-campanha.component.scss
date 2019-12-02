@@ -1,6 +1,14 @@
+/**
+ * Espaçamento entre elementos do relatório
+ * Tabelas, texto, imagens...
+ */
+ $spacing-between-el: 2rem;
+ $spacing: $spacing-between-el * 2;
+
+
 .relatorios-wrapper {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top:  $spacing;
+  padding-bottom:  $spacing;
 
   text-align: left;
 }
@@ -14,7 +22,7 @@
     font-size: 16px;
     line-height: 1.4;
     font-weight: 400;
-    margin-top: 2rem;
+    margin-top: $spacing-between-el;
     margin-bottom: 0;
 
     @media (min-width: 768px) {
@@ -46,9 +54,29 @@
 }
 
 .table-wrapper {
-  margin-top: 2rem;
+  margin-top: $spacing-between-el;
 }
 
 .row-nowrap {
   white-space: nowrap;
+}
+
+.horizontal-img-scroll {
+  width: 100%;
+  white-space: nowrap;
+  margin-top: $spacing-between-el;
+
+  @media (max-width: 575.98px) {
+    overflow-x: scroll;
+  }
+
+  > .horizontal-img {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (max-width: 575.98px) {
+      width: 730px;
+    }
+  }
 }
