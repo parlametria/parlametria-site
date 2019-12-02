@@ -65,16 +65,6 @@
   color:#ffffff;
 }
 
-@media (max-width: 768px) {
-  .card-body {
-    border: none;  
-  }
-
-  .btn-acessar {
-    margin: 0;
-  }
-}
-
 // Estilização de texto
 .section-title {
     color: #ffffff;
@@ -95,4 +85,32 @@
 
 a:focus {
     outline: none;
+}
+
+// Responsividade
+.card-responsivo-media {
+  display: none;
+}
+
+@media (max-width: 766px) {
+// Novo card
+  .card-body {
+    border: none;  
+  }
+
+  .btn-acessar {
+    margin: 0px;
+  }
+
+  .parlametria-card-img-responsive {
+    padding: 1rem;
+  }
+
+  .card-responsivo-media {
+    display: flex;
+  }
+
+  .card-responsivo-main {
+    display: none;
+  }
 }

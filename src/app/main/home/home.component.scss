@@ -52,12 +52,6 @@
   align-items: center;
 }
 
-.card-body {
-  border-left: 3px solid #6842a3;
-  height: 80%;
-}
-
-
 .parlametria-card-title {
   font-weight: 700;
   font-size: 20pt;
@@ -71,29 +65,9 @@
   color: #666666;
 }
 
-.btn-acessar {
-  border: 2px solid #b79fcc;
-  font-weight: 700;
-  font-size: 15pt;
-  color: #6842a3;
-  margin-bottom: 5vh;
-}
-
 .btn:hover {
   background-color: #6842a3;
   color: #ffffff;
-}
-
-.img-square-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.vertical-lign {
-  border-left: 3px solid #6842a3;
-  height: 80%;
-  margin: auto;
 }
 
 .card-img {
@@ -103,36 +77,3 @@
 .projetos-text {
   color: #ffffff;
 }
-
-.card-responsivo-media {
-  display: none;
-}
-
-@media (max-width: 766px) {
-  // .img-square-wrapper {
-  //   width: 100%;
-  // }
-
-  .card-body {
-    border: none;
-  }
-
- .btn-acessar {
-     margin: 0;    
-  }
-
-// Novo card
-  .parlametria-card-img-responsive {
-    padding: 1rem;
-  }
-
-  .card-responsivo-media {
-    display: flex;
-  }
-
-  .card-responsivo-main {
-    display: none;
-  }
-
-}
-
