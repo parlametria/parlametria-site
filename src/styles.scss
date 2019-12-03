@@ -6,6 +6,11 @@
 @import "../node_modules/@ag-grid-community/all-modules/dist/styles/ag-grid.css";
 @import "../node_modules/@ag-grid-community/all-modules/dist/styles/ag-theme-balham.css";
 
+body {
+  min-height: 75rem;
+  padding-top: 58px;
+}
+
 // Container
 .module {
   background-color: #6842a3;
