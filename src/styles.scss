@@ -11,21 +11,25 @@ body {
   padding-top: 58px;
 }
 
+.strong {
+  color: $primary;
+}
+
 // Container
 .module {
-  background-color: #6842a3;
+  background-color: $primary;
   padding-bottom: 10vh;
 }
 
 // Breadcrumb navigation
 .bc-navigation {
-  background-color: #6842a3;
+  background-color: $primary;
 }
 
 .bc-item > a,
 .bc-item.active {
   font-weight: 500;
-  color: #9cdb52;
+  color: $success;
 }
 
 // Seção
@@ -51,7 +55,7 @@ body {
 }
 
 .card-body {
-  border-left: 3px solid #6842a3;
+  border-left: 3px solid $primary;
   height: 80%;
 }
 
@@ -65,12 +69,12 @@ body {
   border: 2px solid #b79fcc;
   font-weight: 700;
   font-size: 15pt;
-  color: #6842a3;
+  color: $primary;
   margin-bottom: 5vh;
 }
 
 .btn:hover {
-  background-color: #6842a3;
+  background-color: $primary;
   color: #ffffff;
 }
 

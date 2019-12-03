@@ -38,7 +38,7 @@
     margin-bottom: 0;
 
     @media (min-width: 768px) {
-      font-size: 38px;
+      font-size: 44px;
     }
   }
 
@@ -128,4 +128,30 @@
     font-weight: 400;
     color: #adb5bd;
   }
+}
+
+.box {
+  margin-top: $spacing-between-el;
+  padding: 10px;
+  border: solid 2px #6842a3;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.box-in {
+  margin-right: -20px;
+  margin-bottom: -21px;
+  padding: 3rem 2rem;
+  border: solid 2px #9cdb52;
+}
+
+.box-title {
+  margin-bottom: 2rem;
+  font-weight: 400;
+  color: #6842a3;
 }
