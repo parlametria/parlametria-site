@@ -31,6 +31,7 @@
   }
 
   > h1 {
+    font-family: 'Libre Baskerville';
     font-size: 32px;
     font-weight: 700;
     margin-top: 0;
@@ -42,6 +43,7 @@
   }
 
   > h2 {
+    font-family: 'Roboto';
     font-size: 24px;
     font-weight: 700;
     margin-top: 2.5rem;
@@ -108,4 +110,22 @@
   margin-top: $spacing-separator;
   margin-bottom: $spacing-separator;
   border-top: 2px solid #6842a3;
+}
+
+.metadata {
+  margin-top: $spacing-between-el;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  font-size: 14px;
+
+  > .metadata-primary {
+    font-weight: 700;
+    color: #6c757d;
+  }
+
+  > .metadata-secondary {
+    font-weight: 400;
+    color: #adb5bd;
+  }
 }
