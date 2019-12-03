@@ -2,13 +2,13 @@
  * Espaçamento entre elementos do relatório
  * Tabelas, texto, imagens...
  */
- $spacing-between-el: 2rem;
- $spacing: $spacing-between-el * 2;
- $spacing-separator: $spacing-between-el * 3;
+$spacing-between-el: 2rem;
+$spacing: $spacing-between-el * 2;
+$spacing-separator: $spacing-between-el * 3;
 
 .relatorios-wrapper {
-  padding-top:  $spacing;
-  padding-bottom:  $spacing;
+  padding-top: $spacing;
+  padding-bottom: $spacing;
 
   text-align: left;
 }
@@ -31,7 +31,7 @@
   }
 
   > h1 {
-    font-family: 'Libre Baskerville';
+    font-family: "Libre Baskerville";
     font-size: 32px;
     font-weight: 700;
     margin-top: 0;
@@ -43,7 +43,7 @@
   }
 
   > h2 {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-size: 24px;
     font-weight: 700;
     margin-top: 2.5rem;
@@ -116,7 +116,7 @@
   margin-top: $spacing-between-el;
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 14px;
 
   > .metadata-primary {
@@ -154,4 +154,49 @@
   margin-bottom: 2rem;
   font-weight: 400;
   color: #6842a3;
+}
+
+.block-quote {
+  width: 50%;
+  margin-top: $spacing-between-el;
+  float: right;
+  padding: 0 0 1em 1em;
+
+  > p {
+    font-family: "Libre Baskerville";
+    font-size: 28px;
+    line-height: 1.2;
+    color: #6842a3;
+  }
+}
+
+.quote {
+  width: 500px;
+  margin-top: $spacing-between-el;
+  margin-bottom: $spacing-between-el;
+  margin-left: auto;
+  font-weight: 400;
+  > p {
+    font-size: 16px;
+    line-height: 1.4;
+    display: inline;
+    white-space: pre-wrap;
+    color: #fff;
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(10%, transparent),
+      color-stop(10%, rgba(104, 66, 163, 0.8))
+    );
+    background-image: linear-gradient(
+      180deg,
+      transparent 10%,
+      rgba(104, 66, 163, 0.8) 0
+    );
+
+    @media (min-width: 768px) {
+      font-size: 20px;
+    }
+  }
 }
