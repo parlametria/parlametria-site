@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700|Libre+Baskerville:700&display=swap");
 @import "../node_modules/bootstrap/scss/functions";
 @import "assets/bootstrap/variables";
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -6,42 +6,52 @@
 @import "../node_modules/@ag-grid-community/all-modules/dist/styles/ag-grid.css";
 @import "../node_modules/@ag-grid-community/all-modules/dist/styles/ag-theme-balham.css";
 
+body {
+  min-height: 75rem;
+  padding-top: 58px;
+}
+
+.strong {
+  color: $primary;
+}
+
 // Container
 .module {
-    background-color: #6842a3;
-    padding-bottom: 10vh;
+  background-color: $primary;
+  padding-bottom: 10vh;
 }
 
 // Breadcrumb navigation
 .bc-navigation {
-    background-color: #6842a3;
+  background-color: $primary;
 }
 
-.bc-item > a ,.bc-item.active {
-    font-weight: 500;
-    color: #9cdb52;
+.bc-item > a,
+.bc-item.active {
+  font-weight: 500;
+  color: $success;
 }
 
 // Seção
 .section-content {
-    padding-bottom: 5vh;
+  padding-bottom: 5vh;
 }
 
 // Módulos
 .card-horizontal {
-    display: flex;
-    flex: 1 1 auto;
+  display: flex;
+  flex: 1 1 auto;
 }
 
 .module-row {
-  margin:0;
+  margin: 0;
   margin-bottom: 2vh;
   display: center;
   align-items: center;
 }
 
 .card-body {
-  border-left: 3px solid #6842a3;
+  border-left: 3px solid $primary;
   height: 80%;
 }
 
@@ -49,13 +59,13 @@
   border: 2px solid #b79fcc;
   font-weight: 700;
   font-size: 15pt;
-  color: #6842a3;
+  color: $primary;
   margin-bottom: 5vh;
 }
 
 .btn:hover {
-  background-color: #6842a3;
-  color:#ffffff;
+  background-color: $primary;
+  color: #ffffff;
 }
 
 a:focus {
@@ -63,7 +73,8 @@ a:focus {
 }
 
 // Estilização de texto
-.section-titulo { //h2
+.section-titulo,
+.section-title {
   color: #ffffff;
   font-weight: 300;
   font-size: 3rem;
@@ -100,7 +111,7 @@ a:focus {
 .footer-texto {
   font-size: 18pt;
 }
-=======
+
 // Responsividade
 .card-responsivo-media {
   display: none;
@@ -109,7 +120,7 @@ a:focus {
 @media (max-width: 766px) {
 // Novo card
   .card-body {
-    border: none;  
+    border: none;
   }
 
   .btn-acessar {
@@ -127,4 +138,17 @@ a:focus {
   .card-responsivo-main {
     display: none;
   }
+}
+.section-text {
+  color: #ffffff;
+  text-align: justify;
+  font-size: 18pt;
+}
+
+.section-text:hover {
+  color: #ffffff;
+}
+
+a:focus {
+  outline: none;
 }
