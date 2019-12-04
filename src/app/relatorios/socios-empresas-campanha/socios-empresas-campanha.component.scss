@@ -28,6 +28,15 @@ $spacing-separator: $spacing-between-el * 3;
     @media (min-width: 768px) {
       font-size: 20px;
     }
+
+    &.note {
+      font-size: 0.8em;
+
+      @media (min-width: 768px) {
+        font-size: 0.9em;
+      }
+    }
+
   }
 
   > h1 {
