@@ -6,3 +6,24 @@
 .page-footer {
     background-color: #f3f4f5;
 }
+
+.footer-titulo {
+    font-weight: 700;
+    font-size: 15pt;
+    color: #666666;
+}
+
+.col-apoio {
+    padding: 0;
+}
+
+// Responsividade
+@media (max-width: 768px) {
+    .footer-logos-media {
+        justify-content: center;
+    }
+
+    .footer-titulo {
+        font-size: 20pt;
+    }
+}
