@@ -1,25 +1,5 @@
 // Módulos
-.img-square-wrapper {  
-  display: flex;
-  justify-content: center;
-  align-items: center;  
-}
-
 .card-img {
   width: 80%;
 }
 
-
-@media (max-width: 768px) {
-  .img-square-wrapper {  
-    width: 100%;
-  }
-
-  .card-body {
-    border: none;  
-  }
-
-  .btn-acessar {
-    margin: 0;
-  }
-}
