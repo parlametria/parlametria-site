@@ -2,6 +2,7 @@
   <div class="relatorios-wrapper">
     <div class="text-wrapper">
       <h1>
+        <a id="inicio"></a>
         Participação de Sócios de Empresas no Financiamento de Campanhas em 2018
       </h1>
 
@@ -10,7 +11,29 @@
         <!-- <span class="metadata-secondary">Atualizado em 04/12/2019</span> -->
       </span>
 
-      <h2>Resumo executivo</h2>
+      <!-- <ul class="outline list-unstyled">
+        <li>
+          <a routerLink='./' fragment="inicio">Início</a>
+          <ul>
+            <li><a routerLink='./' fragment="resumo-executivo">Resumo executivo</a></li>
+            <li><a routerLink='./' fragment="visao-geral">Visão geral</a></li>
+            <li><a routerLink='./' fragment="visao-geral">Volume das doações de sócios em 2018</a></li>
+            <li><a routerLink='./' fragment="visao-geral">Setores econômicos cujos sócios mais financiaram as campanhas</a></li>
+            <li><a routerLink='./' fragment="visao-geral">Número de parlamentares financiados por setores empresariais</a></li>
+            <li><a routerLink='./' fragment="visao-geral">Setores econômicos importantes para as campanhas</a></li>
+            <li><a routerLink='./' fragment="visao-geral">As doações de empresários para cada partido</a></li>
+            <li><a routerLink='./' fragment="visao-geral">Os diferentes perfis de doações de empresários para os partidos</a></li>
+            <li><a routerLink='./' fragment="visao-geral">Suplentes empresários e doadores</a></li>
+            <li><a routerLink='./' fragment="visao-geral">Apêndice 1: Sobre o cálculo de doações e participação</a></li>
+            <li><a routerLink='./' fragment="visao-geral">Apêndice 2: Lista de setores econômicos considerados</a></li>
+          </ul>
+        </li>
+      </ul> -->
+
+      <h2>
+        <a id="resumo-executivo"></a>
+        Resumo executivo
+      </h2>
       <p>
         Levantamento do Parlametria mostra que 90% dos deputados federais eleitos receberam alguma doação de sócios de empresas na campanha eleitoral de 2018. No Senado Federal, esse percentual é de 98% dos 54 candidatos eleitos.
       </p>
@@ -18,6 +41,7 @@
         Sócios de empresas doaram R$ 115,9 milhões para deputados e senadores eleitos em 2018. Na Câmara, essas doações somam R$ 90,3 milhões, o equivalente a 16% do total recebido pelos parlamentares eleitos. No Senado, a participação das doações de empresários foi maior. Cerca de 27% (R$ 25,6 milhões) do total gasto em campanha pelos senadores eleitos veio de pessoas físicas com participação societária em empresas.
       </p>
       <!-- <blockquote class="block-quote">
+        <span class="block"></span>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quasi, at iure minima natus assumenda reprehenderit commodi.
         </p>
@@ -35,7 +59,10 @@
         No Senado, a presença indireta de setores econômicos entre os eleitos foi maior na bancada do Podemos, com 81% em média de recursos oriundos de sócios de empresas. Na segunda posição vem o DEM, com 49%, seguido pelo PDT, com 48%.
       </p>
 
-      <h2>Visão Geral</h2>
+      <h2>
+        <a id="visao-geral"></a>
+        Visão Geral
+      </h2>
       <p>
         O segundo relatório do Parlametria analisa os vínculos entre congressistas e os interesses econômicos daqueles que doaram para as campanhas de 2018. Investigar esses vínculos é essencial para compreendermos o funcionamento de nossa democracia, uma vez que o poder político pode ser desproporcionalmente influenciado por agentes econômicos na construção de agendas e na definição de políticas públicas que dependem da aprovação do Legislativo.
       </p>
@@ -349,7 +376,23 @@
     </div>
 
     <div class="text-wrapper">
-      <hr class="separator">
+
+      <div class="box">
+        <div class="box-in">
+          <h6 class="box-title">Sobre os dados</h6>
+          O
+          <strong class="strong">Parlametria</strong>
+          organizou todos os dados utilizados aqui
+          <a
+            href="https://github.com/parlametria/relatorio-financiamento"
+            target="_blank"
+          >
+            neste repositório
+          </a>
+          .
+        </div>
+      </div>
+
     </div>
 
     <div class="text-wrapper">
@@ -530,26 +573,6 @@
         [paginationPageSize]="30"
       >
       </ag-grid-angular>
-    </div>
-
-    <div class="text-wrapper">
-
-      <div class="box">
-        <div class="box-in">
-          <h6 class="box-title">Sobre os dados</h6>
-          O
-          <strong class="strong">Parlametria</strong>
-          organizou todos os dados utilizados aqui
-          <a
-            href="https://github.com/parlametria/relatorio-financiamento"
-            target="_blank"
-          >
-            neste repositório
-          </a>
-          .
-        </div>
-      </div>
-
     </div>
 
   </div>

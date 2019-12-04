@@ -91,7 +91,7 @@ $spacing-separator: $spacing-between-el * 3;
   white-space: nowrap;
   margin-top: $spacing-between-el;
 
-  @media (max-width: 575.98px) {
+  @media (max-width: 991.98px) {
     overflow-x: scroll;
   }
 
@@ -131,7 +131,8 @@ $spacing-separator: $spacing-between-el * 3;
 }
 
 .box {
-  margin-top: $spacing-between-el;
+  margin-top: $spacing-separator;
+  margin-bottom: $spacing-separator;
   padding: 10px;
   border: solid 2px #6842a3;
   font-size: 16px;
@@ -157,10 +158,13 @@ $spacing-separator: $spacing-between-el * 3;
 }
 
 .block-quote {
-  width: 50%;
   margin-top: $spacing-between-el;
   float: right;
   padding: 0 0 1em 1em;
+
+  @media (min-width: 768px) {
+    width: 50%;
+  }
 
   > p {
     font-family: "Libre Baskerville";
@@ -168,6 +172,17 @@ $spacing-separator: $spacing-between-el * 3;
     line-height: 1.2;
     color: #6842a3;
   }
+}
+
+.block {
+  display: block;
+  position: relative;
+  bottom: -4px;
+  width: 4px;
+  height: 1.45em;
+  margin-right: 0.6em;
+  float: left;
+  background-color: #6842a3;
 }
 
 .quote {
@@ -199,4 +214,12 @@ $spacing-separator: $spacing-between-el * 3;
       font-size: 20px;
     }
   }
+}
+
+.outline {
+  margin-top: $spacing-between-el;
+  margin-bottom: $spacing-between-el;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
 }
