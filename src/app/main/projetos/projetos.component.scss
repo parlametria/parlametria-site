@@ -1,37 +1,5 @@
-h2 {
-  font-size: 35pt;
-  font-weight: 300;
-  color: #ffffff;
-  padding-top: 0;
-  padding-bottom: 2vh;
-}
-
-.historico-title {
-  padding-top: 5vh;
-}
-
 // Módulos
-.img-square-wrapper {  
-  display: flex;
-  justify-content: center;
-  align-items: center;  
-}
-
 .card-img {
   width: 80%;
 }
 
-
-@media (max-width: 768px) {
-  .img-square-wrapper {  
-    width: 100%;
-  }
-
-  .card-body {
-    border: none;  
-  }
-
-  .btn-acessar {
-    margin: 0;
-  }
-}

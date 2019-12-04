@@ -37,10 +37,6 @@ body {
   padding-bottom: 5vh;
 }
 
-.section-text {
-  margin: 0.5rem;
-}
-
 // Módulos
 .card-horizontal {
   display: flex;
@@ -59,12 +55,6 @@ body {
   height: 80%;
 }
 
-.card-title {
-  font-weight: 700;
-  font-size: 20pt;
-  color: #666666;
-}
-
 .btn-acessar {
   border: 2px solid #b79fcc;
   font-weight: 700;
@@ -78,18 +68,14 @@ body {
   color: #ffffff;
 }
 
-@media (max-width: 768px) {
-  .card-body {
-    border: none;
-  }
-
-  .btn-acessar {
-    margin: 0;
-  }
+a:focus {
+    outline: none;
 }
 
 // Estilização de texto
-.section-title {
+
+.section-title,
+.section-titulo { //h2
   color: #ffffff;
   font-weight: 300;
   font-size: 3rem;
@@ -108,4 +94,63 @@ body {
 
 a:focus {
   outline: none;
+}
+
+.section-texto {
+  color: #ffffff;
+  text-align: justify;
+  font-size: 15pt;
+  margin: 0.5rem;
+}
+
+.subtitulo { //h3
+  font-size: 2.5rem;
+  font-weight: 300;
+  color:#ffffff;
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+}
+
+.card-titulo { //h4
+  font-weight: 700;
+  font-size: 20pt;
+  color: #666666;
+}
+
+.card-texto, .footer-texto { //p
+  font-weight: 300;
+  font-size: 14pt;
+  color: #666666;
+}
+
+.footer-texto {
+  font-size: 18pt;
+}
+
+// Responsividade
+.card-responsivo-media {
+  display: none;
+}
+
+@media (max-width: 766px) {
+// Novo card
+  .card-body {
+    border: none;  
+  }
+
+  .btn-acessar {
+    margin: 0px;
+  }
+
+  .parlametria-card-img-responsive {
+    padding: 1rem;
+  }
+
+  .card-responsivo-media {
+    display: flex;
+  }
+
+  .card-responsivo-main {
+    display: none;
+  }
 }
