@@ -61,20 +61,6 @@
   height: 80%;
 }
 
-
-.parlametria-card-title {
-  font-weight: 700;
-  font-size: 20pt;
-  color: #666666;
-}
-
-.parlametria-card-text {
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.5;
-  color: #666666;
-}
-
 .btn:hover {
   background-color: #6842a3;
   color: #ffffff;
@@ -93,10 +79,6 @@
 }
 
 @media (max-width: 766px) {
-  // .img-square-wrapper {
-  //   width: 100%;
-  // }
-
   .card-body {
     border: none;
   }

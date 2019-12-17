@@ -73,8 +73,7 @@ a:focus {
 }
 
 // Estilização de texto
-.section-titulo,
-.section-title {
+.section-titulo {
   color: #ffffff;
   font-weight: 300;
   font-size: 3rem;
@@ -112,6 +111,10 @@ a:focus {
   font-size: 18pt;
 }
 
+a:focus {
+  outline: none;
+}
+
 // Responsividade
 .card-responsivo-media {
   display: none;
@@ -138,17 +141,4 @@ a:focus {
   .card-responsivo-main {
     display: none;
   }
-}
-.section-text {
-  color: #ffffff;
-  text-align: justify;
-  font-size: 18pt;
-}
-
-.section-text:hover {
-  color: #ffffff;
-}
-
-a:focus {
-  outline: none;
 }
