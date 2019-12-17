@@ -1,16 +1,64 @@
-.namidia-card {
-    justify-content: center;
+.section-namidia {
+    background-color: #ffffff;
+    padding: 5vh;   
+    margin: 0 10vh;
 }
 
-.module-row {
-    justify-content: center;
+// Card geral
+.card-titulo {
+    color: #ffffff;
+    line-height: 2.5rem;
+    margin-top: 2rem;
 }
-.namidia-img {
-    max-width: 80%;
+
+//Card roxo
+.card-namidia-roxo {
+    border: 0.5vh solid #6842a3;
+}
+
+.span-namidia-roxo {
+    background-color: #6842a3;    
+}
+
+.data-namidia-roxo, .data-namidia-verde {
+    border: 0.5vh solid #6842a3;
+    width: max-content;
+    padding: 0 0.5rem;
+    margin-left: 20px;
+}
+
+//Card verde
+.card-namidia-verde {
+    border: 0.5vh solid #9cdb52;
+}
+
+.span-namidia-verde {
+    background-color: #9cdb52;    
+}
+
+.data-namidia-verde {
+    border: 0.5vh solid #9cdb52;
+}
+
+.btn-verde {
+    border: 2px solid #9cdb52a6;
+    color: #9cdb52;
+}
+
+.btn-verde:hover{
+    background-color: #9cdb52;
+    color: #ffffff;
+}
+
+// Botão Ler
+.btn-ler {
+    margin: 0;
+    padding-left: 5vh;
+    padding-right: 5vh;
 }
 
 @media (max-width: 768px) {
-    .namidia-col {
-        margin-bottom: 5vh;
+    .btn-ler {
+        margin-top: 2vh;
     }
 }

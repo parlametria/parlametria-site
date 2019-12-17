@@ -47,7 +47,7 @@ body {
   align-items: center;
 }
 
-.card-body {
+.card-borda {
   border-left: 3px solid $primary;
   height: 80%;
 }
@@ -120,10 +120,6 @@ a:focus {
 
 @media (max-width: 766px) {
 // Novo card
-  .card-body {
-    border: none;
-  }
-
   .btn-acessar {
     margin: 0px;
   }
