@@ -3,6 +3,7 @@
     font-weight: 300;
     font-size: 20pt;
 }
+
 .page-footer {
     background-color: #f3f4f5;
 }
@@ -17,17 +18,7 @@
     padding: 0;
 }
 
-// Responsividade
-@media (max-width: 768px) {
-    .footer-logos-media {
-        justify-content: center;
-    }
-
-    .footer-titulo {
-        font-size: 20pt;
-    }
-}
-
+// Licença CC-BY
 .footer-creative-commons {
     font-weight: 300;
     font-size: 9pt;
@@ -37,5 +28,18 @@
 
 .img-creative-commons {
     border-width:0;
-    width: 50px;
+    max-width: 30%;
+    margin: 2vh;
+}
+
+
+// Responsividade
+@media (max-width: 768px) {
+    .footer-logos-responsivo {
+        justify-content: center;
+    }
+
+    .footer-titulo {
+        font-size: 20pt;
+    }
 }
