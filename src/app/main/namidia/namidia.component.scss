@@ -11,28 +11,30 @@
 .card-titulo {
     color: #ffffff;
     line-height: 2.5rem;
-    margin-top: 2rem;
 }
 
 //Card roxo
 .card-namidia-roxo {
-    border: 0.5vh solid #6842a3;
+    border: solid #6842a3;
+    border-width: none;
+    padding-top: 0;
 }
 
 .span-namidia-roxo {
     background-color: #6842a3;    
 }
 
-.data-namidia-roxo, .data-namidia-verde {
-    border: 0.5vh solid #6842a3;
-    width: max-content;
-    padding: 0 0.5rem;
-    margin-left: 20px;
+.data-namidia-roxo, .data-namidia-verde {     
+    padding-top: 0.5rem;    
+    margin-bottom: 0;
+    color: #6842a3;
 }
 
 //Card verde
 .card-namidia-verde {
-    border: 0.5vh solid #9cdb52;
+    border: solid #9cdb52;
+    border-width: none;
+    padding-top: 0;
 }
 
 .span-namidia-verde {
@@ -40,7 +42,7 @@
 }
 
 .data-namidia-verde {
-    border: 0.5vh solid #9cdb52;
+   color: #9cdb52;
 }
 
 .btn-verde {
