@@ -21,102 +21,19 @@
 
 .slogan {
   font-size: 2.5rem;
-  font-weight: 300;
+  font-weight: 500;
 
   @media (min-width: 768px) {
     font-size: 3rem;
-    font-weight: 500;
   }
 }
 
+// Texto
 .subtitulo-home {
   font-weight: 500;
 }
 
-// Módulos
-.module {
-  padding-top: 8vh;
-  padding-bottom: 8vh;
-}
-.module-title {
-  font-size: 2rem;
-  font-weight: 500;
-  color: #ffffff;
-}
-
-.card-horizontal {
-  display: flex;
-  flex: 1 1 auto;
-}
-
-.module-row {
-  margin: 0;
-  margin-bottom: 2vh;
-  display: center;
-  align-items: center;
-}
-
-.card-body {
-  border-left: 3px solid #6842a3;
-  height: 80%;
-}
-
-
-.parlametria-card-title {
-  font-weight: 700;
-  font-size: 20pt;
-  color: #666666;
-}
-
-.parlametria-card-text {
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.5;
-  color: #666666;
-}
-
-.btn:hover {
-  background-color: #6842a3;
-  color: #ffffff;
-}
-
-.card-img {
-  width: 80%;
-}
-
 .projetos-text {
   color: #ffffff;
+  font-weight: 500;
 }
-
-.card-responsivo-media {
-  display: none;
-}
-
-@media (max-width: 766px) {
-  // .img-square-wrapper {
-  //   width: 100%;
-  // }
-
-  .card-body {
-    border: none;
-  }
-
- .btn-acessar {
-     margin: 0;    
-  }
-
-// Novo card
-  .parlametria-card-img-responsive {
-    padding: 1rem;
-  }
-
-  .card-responsivo-media {
-    display: flex;
-  }
-
-  .card-responsivo-main {
-    display: none;
-  }
-
-}
-

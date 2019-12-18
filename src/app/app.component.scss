@@ -3,6 +3,7 @@
     font-weight: 300;
     font-size: 20pt;
 }
+
 .page-footer {
     background-color: #f3f4f5;
 }
@@ -17,9 +18,24 @@
     padding: 0;
 }
 
+// Licença CC-BY
+.footer-creative-commons {
+    font-weight: 300;
+    font-size: 9pt;
+    color: #666666;
+    text-align: center;
+}
+
+.img-creative-commons {
+    border-width:0;
+    max-width: 30%;
+    margin: 2vh;
+}
+
+
 // Responsividade
 @media (max-width: 768px) {
-    .footer-logos-media {
+    .footer-logos-responsivo {
         justify-content: center;
     }
 

@@ -6,13 +6,10 @@
 @import "../node_modules/@ag-grid-community/all-modules/dist/styles/ag-grid.css";
 @import "../node_modules/@ag-grid-community/all-modules/dist/styles/ag-theme-balham.css";
 
+// Geral
 body {
   min-height: 75rem;
   padding-top: 58px;
-}
-
-.strong {
-  color: $primary;
 }
 
 // Container
@@ -33,24 +30,24 @@ body {
 }
 
 // Seção
-.section-content {
+.section-conteudo {
   padding-bottom: 5vh;
 }
 
-// Módulos
+// Cards
 .card-horizontal {
   display: flex;
   flex: 1 1 auto;
 }
 
-.module-row {
+.card-row {
   margin: 0;
   margin-bottom: 2vh;
   display: center;
   align-items: center;
 }
 
-.card-body {
+.card-borda {
   border-left: 3px solid $primary;
   height: 80%;
 }
@@ -68,20 +65,15 @@ body {
   color: #ffffff;
 }
 
-a:focus {
-    outline: none;
-}
-
 // Estilização de texto
-.section-titulo,
-.section-title {
+.section-titulo { //h2
   color: #ffffff;
   font-weight: 300;
   font-size: 3rem;
   padding-bottom: 2vh;
 }
 
-.section-texto {
+.section-texto { //p
   color: #ffffff;
   text-align: justify;
   font-size: 15pt;
@@ -112,6 +104,15 @@ a:focus {
   font-size: 18pt;
 }
 
+a:focus {
+  outline: none;
+}
+
+.strong {
+  color: $primary;
+}
+
+
 // Responsividade
 .card-responsivo-media {
   display: none;
@@ -119,15 +120,11 @@ a:focus {
 
 @media (max-width: 766px) {
 // Novo card
-  .card-body {
-    border: none;
-  }
-
   .btn-acessar {
     margin: 0px;
   }
 
-  .parlametria-card-img-responsive {
+  .card-img-responsivo {
     padding: 1rem;
   }
 
@@ -138,17 +135,4 @@ a:focus {
   .card-responsivo-main {
     display: none;
   }
-}
-.section-text {
-  color: #ffffff;
-  text-align: justify;
-  font-size: 18pt;
-}
-
-.section-text:hover {
-  color: #ffffff;
-}
-
-a:focus {
-  outline: none;
 }

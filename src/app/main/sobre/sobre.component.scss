@@ -3,9 +3,8 @@
     padding: 5vh;
 }
 
-.imgs-quemfaz {
-    display: flex;
-    justify-content: center;
+.container-quemfaz {
+    margin: 0;
 }
 
 .logo-quemfaz {
@@ -13,13 +12,17 @@
     padding: 2vh;
 }
 
-.container-quemfaz {
-    margin: 0;
-}
-
 @media (max-width: 768px) {
     .logo-quemfaz {
         width: 80%;
         padding: 5vh;
+    }
+
+    .quemfaz-img-responsivo {
+        text-align: center;
+    }
+
+    .section-texto {
+        text-align: left;
     }
 }
