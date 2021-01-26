@@ -48,8 +48,10 @@ body {
 }
 
 .card-borda {
-  border-left: 3px solid $primary;
-  height: 80%;
+  @media (min-width: 768px) {
+    border-left: 3px solid $primary;
+    height: 80%;
+  }
 }
 
 .btn-acessar {
