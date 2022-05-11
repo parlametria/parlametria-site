@@ -6,11 +6,13 @@ import { AgGridModule } from '@ag-grid-community/angular';
 import { RelatoriosListarComponent } from './relatorios-listar/relatorios-listar.component';
 import { RelatoriosRoutingModule } from './relatorios-routing.module';
 import { SociosEmpresasCampanhaComponent } from './socios-empresas-campanha/socios-empresas-campanha.component';
+import { CongressoPandemiaComponent } from './congresso-pandemia/congresso-pandemia.component';
 
 @NgModule({
   declarations: [
     RelatoriosListarComponent,
-    SociosEmpresasCampanhaComponent
+    SociosEmpresasCampanhaComponent,
+    CongressoPandemiaComponent
   ],
   imports: [
     CommonModule,
